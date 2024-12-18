@@ -10,7 +10,7 @@ public class Film implements Cloneable {
     private String genre;
     private float dureeEnMinutes;
     private float tempsEnMinutes;
-    private String[] realisateurs;
+    private String realisateurs;
     private Date dateDeSortie;
     private String pays;
     private String isan;
@@ -20,7 +20,7 @@ public class Film implements Cloneable {
 
     // Constructeur classique
     // This. sert à indiquer un objet particulier
-    public Film(String titre, String genre, float dureeEnMinutes, float tempsEnMinutes, String[] realisateurs,
+    public Film(String titre, String genre, float dureeEnMinutes, float tempsEnMinutes, String realisateurs,
             Date dateDeSortie, String pays, String isan, String langueOriginale, boolean vfDispo, String langueDeVisionnage) {
         this.titre = titre;
         this.genre = genre;
